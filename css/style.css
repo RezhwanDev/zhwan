@@ -1,0 +1,31 @@
+a.btn {
+  background-color: #2a2a2a;
+  position: relative;
+  display: inline-block;
+/*
+float: left;
+text-decoration: none;
+width: 250px;
+*/
+  overflow: hidden;
+  margin: 0px 0px 10px 0px;
+  padding: 5px 20px 5px 10px;
+  transition: all .5s;
+  letter-spacing: 2px;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, .5);
+  line-height: 25px;
+
+}
+
+a.btn:hover {
+  letter-spacing: 3px;
+  border-color: #fff;
+  border-left-width: 15px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+*/
