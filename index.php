@@ -7,7 +7,7 @@
 
 
           <!-- Slider -->
-          <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
+          <div id="carouselExampleIndicators" class="carousel slide my-4 shadow" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -50,13 +50,15 @@
                 $s_contentpost   = $row['s_contentpost'];
               ?>
 
-                        <div  class="col-lg-4 col-md-6 mb-4 sh">
-                          <figure class="imghvr-hinge-up sh" >
+                        <div  class="col-lg-4 col-md-6 mb-4">
+                          <figure class="imghvr-hinge-up shadow" >
                             <img class="img-responsive" src="images/<?php echo $s_imagepost;?>" width="450px" height="250px">
                               <figcaption>
                                 <h2><?php echo $s_title ?></h2>
                                 <?php echo $s_contentpost; ?>
-                                <small class="text-right"><?php echo $s_date; ?></small>
+                                <small class="text-right">
+                                <br>
+                                <?php echo $s_date; ?></small>
                                 <br><br>
                                    <button class="btn btn-light pull-right" type="button">Read More</button>
                                     <br>
