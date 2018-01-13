@@ -3,7 +3,7 @@
 <html lang="en">
 
   <head>
-
+  
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -18,6 +18,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <style media="screen">
     @font-face { font-family: 'FontAwesome'; src: local('FontAwesome'); }
+
     .tshadow{
       /* text-shadow:  4px 8px  rgba(188, 193, 192,0.2);; */
       text-shadow: 0 4px 8px 0 rgba(188, 193, 192, 0.2), 0 6px 20px 0 rgba(188, 193, 192, 0.19);
